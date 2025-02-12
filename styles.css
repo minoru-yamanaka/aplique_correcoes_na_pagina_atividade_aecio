@@ -102,8 +102,9 @@ footer {
     /* Empurra o footer para o final sem espaços exagerados */
     /* margin-top: auto; */
     /* position: fixed; */
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
+    margin-top: auto;
     
 
 }

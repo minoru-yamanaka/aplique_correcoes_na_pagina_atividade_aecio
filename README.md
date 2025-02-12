@@ -1,6 +1,6 @@
 ## Aplique correções na página
 
-[Link da Página](https://minoru-yamanaka.github.io/aplique_correcoes_na_pagina_atividade_aecio/)
+[Link da Página](https://minoru-yamanaka.github.io/aplique_correcoes_na_pagina_atividade_aecio/index.html)
 - Troque o nome "Logo" por uma imagem usando o [Picsum](https://picsum.photos/).
 - Faça com que o `footer` esteja sempre no "bottom" da página, podendo ficar mais abaixo se a página tiver muito conteúdo.
 - Reative a animação de background.

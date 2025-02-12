@@ -100,10 +100,18 @@ footer {
     color: white;
     padding: 20px;
     /* Empurra o footer para o final sem espaços exagerados */
-    margin-top: auto;
+    /* margin-top: auto; */
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    
+
 }
 
-
+ .footer_gambiarra {
+    margin:50px;
+ }
+ 
 #loading {
     position: fixed;
     top: 0;

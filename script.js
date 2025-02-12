@@ -96,8 +96,10 @@ checkVisibility();
 
 // Slider da Hero Section
 let index = 0;
+// Selecionar todos os slides
 const slides = document.querySelectorAll(".slide");
 
+// A função showSlide() está correta, mas não está okay
 function showSlide() {
     slides.forEach(slide => slide.classList.remove("active"));
     slides[index].classList.add("active");
@@ -115,9 +117,9 @@ function showSlide() {
 // Incluí showSlide() no final: Isso garante que o primeiro slide apareça corretamente ao carregar a página.
 // Testei no navegador: O slider agora muda de imagem a cada 3 segundos como esperado.
 
-// Iniciar o slider, troca de slide a cada 3 segundos
+// Iniciar o slider, troca de slide a cada 3 segundos / add o time de 3 segundos
 setInterval(showSlide, 3000);
 
-// Garantir que o primeiro slide seja exibido corretamente no início
+// Garantir / Invocar que o primeiro slide seja exibido corretamente no início
 showSlide();
 
